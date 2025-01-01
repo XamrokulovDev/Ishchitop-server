@@ -9,7 +9,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'http://localhost:4000',
+      url: 'https://ish-chi-top.onrender.com',
     },
   ],
 };
