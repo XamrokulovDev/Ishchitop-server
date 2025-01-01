@@ -1,6 +1,6 @@
 const Ads = require("../models/ads.model");
 const asyncHandler = require("../middlewares/async");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/ErrorResponse");
 
 // @desc Get all ads
 // @route GET /api/v1/ads

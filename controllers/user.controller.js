@@ -1,6 +1,6 @@
 const User = require("../models/user.model");
 const asyncHandler = require("../middlewares/async");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/ErrorResponse");
 const MailService = require("../service/mail.service");
 const uuid = require("uuid");
 
