@@ -1,3 +1,5 @@
+const errorHandle = require("../middlewares/error")
+
 class ErrorResponse extends Error {
     constructor(message,statusCode){
         super(message)
